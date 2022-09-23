@@ -1,0 +1,44 @@
+---
+title: "gsw_analysis"
+author: "Michaele Dietzel"
+date: "8/18/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(here)
+library(tidyverse)
+library(lubridate)
+library(DescTools)
+library(gmodels)
+library(readxl)
+library(janitor)
+```
+
+#bind all data, clean
+```{r}
+all_gsw <- rbind(gsw_light_adap_Shane_2022_08_18T21_59_16_475Z_1, gsw_light_adap_Shane_2022_08_18T21_59_16_504Z_1, gsw_light_adap_Shane_2022_08_18T21_59_16_522Z_1, gsw_light_adap_Shane_2022_08_18T21_59_16_539Z_1, gsw_light_adap_Shane_2022_08_18T21_59_16_558Z_1, gsw_light_adap_Shane_2022_08_18T21_59_16_581Z_1, gsw_light_adap_Shane_2022_08_18T21_59_16_596Z_1, gsw_light_adap_Shane_2022_08_18T21_59_16_610Z_1, gsw_light_adap_Shane_2022_08_19T23_26_13_736Z_1) %>% 
+  row_to_names(1) %>% 
+    clean_names %>% 
+   mutate(species = case_when(species == "rhov" ~ "enca", 
+                             TRUE ~ species))
+```
+ 
+#prep to plot gsw over time
+```{r}
+gsw_plot <- all_gsw[-c(1), ] %>% 
+  select("date", "species", "id", "gsw")
+```
+
+#plot gsw over time
+```{r}
+ggplot(gsw_plot, aes(x = date, y = gsw, group = date, color = date)) +
+   geom_point() +
+  geom_smooth(method = "lm") +
+  labs(x = "date",
+       y = "gsw")
+```
+
+
+

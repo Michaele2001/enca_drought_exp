@@ -1,0 +1,71 @@
+[Header]
+File opened	2022-08-03 13:48:30
+Console s/n	68C-022579
+Console ver	Bluestem v.2.0.04
+Scripts ver	2021.08  2.0.04, Aug 2021
+Head s/n	68H-422569
+Head ver	1.4.7
+Head cal	{"oxygen": "21", "co2azero": "0.953182", "co2aspan1": "1.0007", "co2aspan2": "-0.0241478", "co2aspan2a": "0.320658", "co2aspan2b": "0.318399", "co2aspanconc1": "2491", "co2aspanconc2": "303.6", "co2bzero": "0.942748", "co2bspan1": "1.00024", "co2bspan2": "-0.0240419", "co2bspan2a": "0.321302", "co2bspan2b": "0.318896", "co2bspanconc1": "2491", "co2bspanconc2": "303.6", "h2oazero": "1.04539", "h2oaspan1": "1.00536", "h2oaspan2": "0", "h2oaspan2a": "0.0681292", "h2oaspan2b": "0.0684947", "h2oaspanconc1": "12.16", "h2oaspanconc2": "0", "h2obzero": "1.05523", "h2obspan1": "1.00305", "h2obspan2": "0", "h2obspan2a": "0.0685762", "h2obspan2b": "0.0687854", "h2obspanconc1": "12.16", "h2obspanconc2": "0", "tazero": "0.154137", "tbzero": "0.259335", "flowmeterzero": "1.00474", "flowazero": "0.303", "flowbzero": "0.30288", "chamberpressurezero": "2.50771", "ssa_ref": "37836.8", "ssb_ref": "35909.7"}
+CO2 rangematch	Fri Mar  4 10:34
+H2O rangematch	Fri Mar  4 10:21
+Chamber type	6800-01A
+Chamber s/n	MPF-842225
+Chamber rev	0
+Chamber cal	0
+Fluorometer	MPF-842225
+Flr. Version	1.4.7
+13:48:30	Stability Definition:	ΔCO2 (Meas2): Slp<0.1 Per=20	ΔH2O (Meas2): Slp<0.1 Per=20
+SysConst:AvgTime	4
+SysConst:Oxygen	21
+ChambConst:Chamber	6800-01A
+ChambConst:Aperture	6 cm²
+ChambConst:blc_a	0.578
+ChambConst:blc_b	0.5229739
+ChambConst:blc_c	0.003740252
+ChambConst:blc_d	-0.06197961
+ChambConst:blc_e	-0.005608586
+ChambConst:blc_minS	1
+ChambConst:blc_maxS	6
+ChambConst:blc_Po	96.9
+Const:S	6.0
+Const:K	0.5
+Const:Geometry	0: Broadleaf
+Const:CustomBLC	2.0
+LTConst:deltaTw	0
+LTConst:fT1	1
+LTConst:fT2	0
+LTConst:fTeb	0
+LQConst:Leaf	standard
+LQConst:Ambient	Fluorescent
+LQConst:abs_ambient	0.76
+LQConst:abs_redLED	0.84
+LQConst:abs_greenLED	0.7
+LQConst:abs_blueLED	0.87
+LQConst:abs_whiteLED	0.75
+LQConst:abs_redFlr	0.84
+LQConst:abs_blueFlr	0.87
+LQConst:k_ambient	0.17250000000000001
+LQConst:k_redLED	0.1512
+LQConst:k_greenLED	0.161
+LQConst:k_blueLED	0.2262
+LQConst:k_whiteLED	0.1575
+LQConst:k_redFlr	0.1596
+LQConst:k_blueFlr	0.2175
+QConst:fQ_Amb_in	0.0
+QConst:fQ_Amb_out	0.0
+QConst:fQ_HeadLS	0.0
+QConst:fQ_ConsoleLS	0.0
+QConst:fQ_Flr	1.0
+LeakConst:fan_a	-6276.0
+LeakConst:fan_b	6.6
+LeakConst:fan_c	1.709e-05
+LeakConst:fan_d	3.11
+LeakConst:Fs_meas	3.71421 80.3328 379.437 620.942 876.007 1076.6 1262.44 1405.36
+LeakConst:Fs_true	0.220092 100.965 403.187 601.281 803.914 1000.88 1202.7 1401.09
+LeakConst:leak_wt	0
+[Data]
+SysObs	SysObs	SysObs	SysObs	SysObs	SysObs	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	GasEx	Leak	Leak	Leak	Leak	Leak	LeafQ	LeafQ	LeafQ	LeafQ	Meas	Meas	Meas	Meas	Meas	Meas	Meas	Meas	Meas	Meas	Meas	Meas	Meas	Meas	Meas	Meas	Meas	Meas	Meas2	Meas2	Meas2	Meas2	Meas2	Meas2	Meas2	Meas2	Meas2	Meas2	FlrLS	FlrLS	FlrLS	FlrLS	FlrLS	FlrLS	FlrLS	FlrLS	FlrLS	FlrLS	FlrLS	FlrLS	FlrLS	FlrLS	FlrLS	FlrLS	FlrLS	FlrLS	MchEvent	MchEvent	MchEvent	MchEvent	MchEvent	MchEvent	MchEvent	MchEvent	MchEvent	MchEvent	MchEvent	MchEvent	MchEvent	Stability	Stability	Stability	Stability	Stability	Stability	Stability	Stability	Stability	Stability	Stability	Raw	Raw	Raw	Raw	Raw	Raw	Raw	Raw	Raw	Raw	Raw	Raw	Raw	Raw	Raw	Raw	Raw	Raw	Status2	Status2	Status2	Status2	Status2	Status2	Status2	Status2	Status2	Status2	Status2	Status2	Status2	Status2	Status2	Status2	Status2	Status2	Status2	Auxiliary	Auxiliary	Auxiliary	Auxiliary	Auxiliary	Auxiliary	Auxiliary	Auxiliary	Auxiliary	Auxiliary	Auxiliary	Auxiliary	Auxiliary	Auxiliary	Auxiliary	Auxiliary	Auxiliary	Auxiliary	Auxiliary	MchStatus	MchStatus	MchStatus	MchStatus	MchStatus	MchStatus	MchStatus	MchStatus	MchStatus	MchStatus	MchStatus	MchStatus	MchStatus	MchStatus	MchStatus	MchStatus	MchStatus	MchStatus	ConStatus	ConStatus	ConStatus	ConStatus	ConStatus	ConStatus	ConStatus	ConStatus	Status	Status	Status	Status	Status	Status	Status	Status	Status	Status	Status	Status	Status	Status	Status	Status	
+obs	time	elapsed	date	hhmmss	averaging	TIME	E	Emm	A	Ca	Ci	Pci	Pca	gsw	gbw	gtw	gtc	Rabs	TleafEB	TleafCnd	SVPleaf	RHcham	VPcham	SVPcham	VPDleaf	LatHFlux	SenHFlux	NetTherm	EBSum	Leak	LeakPct	CorrFact	CorrFactPct	Fan	Qin	Qabs	alpha	convert	TIME	CO2_s	CO2_r	H2O_s	H2O_r	CO2_a	H2O_a	Flow	Pa	ΔPcham	Tair	Tleaf	Tleaf2	Offset	Offset2	Fan_speed	Qamb_in	Qamb_out	ΔCO2	CO2_s_d	CO2_r_d	ΔH2O	CO2_b	H2O_b	e_s	e_r	Td_s	Td_r	Q	f_red	f_blue	f_farred	F	Q_modavg	F_dc	Pc	Tled	TDigital	TPreamp	TPwrSpy	TDrive	Q_red	Q_blue	Q_farred	TSPF	state	time	hhmmss	co2_t	h2o_t	count	co2_adj	h2o_adj	co2_match	h2o_match	co2_at	h2o_at	co2_cv	h2o_cv	ΔCO2:MN	ΔCO2:SLP	ΔCO2:SD	ΔCO2:OK	ΔH2O:MN	ΔH2O:SLP	ΔH2O:SD	ΔH2O:OK	Stable	Total	State	Vflow	VPchamber	abs_c_a	abs_c_b	abs_h_a	abs_h_b	Wc_s	Wc_r	Wco_s	Wco_r	Ww_s	Ww_r	Wwo_s	Wwo_r	Flow_s_v	Flow_r_v	Tleaf_mv	Tleaf2_mv	Tleaf_j	Tleaf2_j	Console_RH	Console_T	Console_H2O	Fan_%	Flow_%	Pump	Tchp_pwm	Txchg_pwm	diag_20v	diag_5_4v	diag_12v	diag_5va	diag_3_3vf	AccCO2_soda	AccH2O_des	AccH2O_hum	CO2_hrs	ADC_CH1	ADC_CH2	ADC_CH3	ADC_CH4	ADC_CH5	ADC_CH6	ADC_CH7	ADC_CH8	DAC_1	DAC_2	DAC_3	DAC_4	GPIO	GPIO_dir	excit_5v	power_12v	power_5v	ch1_pullup	AuxPower	MatchValveR	MatchValveS	MatchCO2	MatchH2O	cf_co2_a	cf_co2_b	cf_co2_c	cf_co2_d	cf_h2o_a	cf_h2o_b	cf_h2o_c	cf_h2o_d	co2_fit_low	co2_fit_high	h2o_fit_low	h2o_fit_high	co2_elapsed	h2o_elapsed	CO2_f	CO2_f_s	Pump_f	Pump_f_s	Pump_p	Pump_p_s	Tboard	V_system	DIAG	Flow_s	Flow_r	Txchg	Tirga	Tchopper	Ts	Tr	CO2_%	Desiccant_%	Humidifier_%	Txchg_sp	CO2_r_sp	H2O_r_sp	SS_s	SS_r	
+	s	s			s	s	mol m⁻² s⁻¹	mmol m⁻² s⁻¹	µmol m⁻² s⁻¹	µmol mol⁻¹	µmol mol⁻¹	Pa	Pa	mol m⁻² s⁻¹	mol m⁻² s⁻¹	mol m⁻² s⁻¹	mol m⁻² s⁻¹	W m⁻²	°C	°C	kPa	%	kPa	kPa	kPa	W m⁻²	W m⁻²	W m⁻²	W m⁻²	µmol s⁻¹	%		%	µmol s⁻¹	µmol m⁻² s⁻¹	µmol m⁻² s⁻¹		J/µmol	s	µmol mol⁻¹	µmol mol⁻¹	mmol mol⁻¹	mmol mol⁻¹	µmol mol⁻¹	mmol mol⁻¹	µmol s⁻¹	kPa	kPa	°C	°C	°C	°C	°C	rpm	µmol m⁻² s⁻¹	µmol m⁻² s⁻¹	µmol mol⁻¹	µmol mol⁻¹	µmol mol⁻¹	mmol mol⁻¹	µmol mol⁻¹	mmol mol⁻¹	kPa	kPa	°C	°C	µmol m⁻² s⁻¹					µmol m⁻² s⁻¹			°C	°C	°C	°C	°C	µmol m⁻² s⁻¹	µmol m⁻² s⁻¹	µmol m⁻² s⁻¹	s		secs		s	s		µmol/mol	mmol/mol	µmol/mol	mmol/mol	µmol/mol	mmol/mol	%	%	µmol mol⁻¹	µmol mol⁻¹ min⁻¹	µmol mol⁻¹		mmol mol⁻¹	mmol mol⁻¹ min⁻¹	mmol mol⁻¹					V	V													V	V	mV	mV	°C	°C	%	°C	mmol mol⁻¹	%	%		V	V	V	V	V	V	V	mg	mg	mg	hrs	V	V	V	V	V	V	V	V	V	V	V	V							V	%	%	µmol/mol	mmol/mol	mmol/mol				mmol/mol				µmol mol⁻¹	µmol mol⁻¹	mmol mol⁻¹	mmol mol⁻¹	min	min	V	V	V	V	V	V	°C	V		µmol s⁻¹	µmol s⁻¹	°C	°C	°C	°C	°C	%	%	%	°C	µmol mol⁻¹	mmol mol⁻¹	%	%	
+1	1659646348.1	0	20220804 13:52:28	13:52:28	15	1659646340.3499994	0.00014757002037817438	0.14757002037817438	-0.29593377468910376	400.23843365988614	419.63162452463075	42.51107832929009	40.54643742111269	0.01948551251361406	2.95129885732647	0.01941432213776982	0.01214032573258705	0.0	22.46316358181352	22.393156666666673	2.717802928242461	71.84774445807936	1.9655684431626865	2.7357413346629507	0.7522344850797744	-6.50783789867749	17.221581925265887	1.2028488042807801	11.916592830869178	0	0.0	1	0	54353.0	0.0	0.0	0.0	0.0	1659646340.3499994	400.2384333333333	400.0016666666666	19.40234666666667	19.257703333333332	401.19643333333335	19.46999333333333	600.2633333333334	101.2057333333333	0.09997349333333333	22.501393333333333	22.393156666666673	999.9000000000002	0.0	0.0	10003.888666666666	0.0	2.3176700000000006	0.23483976666666664	408.15569999999997	407.8560666666668	0.1446412	400.0016666666666	19.257703333333332	1.963627	1.9489900000000004	17.154063333333337	17.0359	0.0	0.0	0.0	0.0	2.671666666666666	0.0	27.982999999999993	-1.4120000000000001	34.252066666666664	40.48309999999999	37.3351	39.35589999999999	35.16426666666666	0.0	0.0	0.0	1659646344.8	0.0	1659646363.1	13:52:43	1659646363.1	1659645892.1	32	0.001	-0.002	-0.958	-0.07	400.0	19.0	0.36	0.21	0.2196059024390244	0.10388535888501757	0.032231867238014904	0	0.1443081219512195	0.005336006968641398	0.0009550281874303158	1	1	2	1/2	3.21155	2.65705	0.102374	0.102458	0.100293	0.100096	29733.8	28802.2	31713.1	30410.6	38293.2	36237.8	44536.4	42532.4	2.2124	1.9056	0.0400655	0	21.7321	999.9	59.3	29.7	24.5363	60.8676	20.3606	1	-0.199698	0.899641	20.1546	5.22837	11.992	4.96755	3.297	831.9	4595.8	3344.8	4.5	1.86752	1.868	1.8593	1.86545	1.8634	1.86478	1.8602	1.86432	0.0	0.0	0.0	0.0	00000000	iiiiiiii	off	off	off	off	0.0	100.0	100.0	-0.958	-0.0677	-0.6630202632912727	-0.00042885721085168127	-9.298775811270514e-07	3.855936630904132e-10	-0.10835496311494855	-0.001228956394211394	0.00013004612730417491	2.07731679356656e-06	2.0	2029.0	1.0	23.0	7.5	7.6	1.07178	2.44507	1.44775	2.32056	1.55151	2.44263	34.2587	24.2451	18	629.93	442.233	20.846	24.5046	30	24.5315	24.4734	21.4668	29.9145	0	20.8396	400	19.2351	100.761	101.564	
+2	1659646489.6	141.5	20220804 13:54:49	13:54:49	15	1659646481.8499994	0.00016540012172842555	0.16540012172842555	-0.33458115688873447	400.24163370206503	419.84865425851444	42.53273564869175	40.5464479382816	0.021845148226842432	2.950438959660095	0.021755688776185843	0.01360531241308351	0.0	22.462769598967917	22.38826	2.7169938276043823	71.79414530261047	1.9646077251216851	2.736445592939249	0.7523861024826972	-7.294145368223567	18.66934933172604	1.3043444173977927	12.679548380900265	0	0.0	1	0	54448.0	0.0	0.0	0.0	0.0	1659646481.8499994	400.24163333333325	399.9733666666667	19.393013333333332	19.230889999999995	401.16263333333325	19.460726666666666	600.2560333333333	101.20493333333334	0.09998980333333332	22.505630000000004	22.38826	999.9000000000002	0.0	0.0	9999.083666666667	0.0	2.3176700000000006	0.23076786666666668	408.1186666666667	407.8159666666667	0.1621245666666666	399.9733666666667	19.230889999999995	1.9626696666666665	1.9462619999999997	17.146346666666666	17.013783333333336	0.0	0.0	0.0	0.0	2.1249999999999996	0.0	29.13566666666667	-1.4243333333333335	34.68286666666667	41.30799999999999	37.8666	40.5914	35.64153333333333	0.0	0.0	0.0	1659646486.4	0.0	1659646506.6	13:55:06	1659646506.6	1659645892.1	33	0.038	-0.002	-0.921	-0.07	400.0	19.0	0.22	0.21	0.20278712195121953	0.3511950836236933	0.09451701963697258	0	0.15700641463414633	0.051196515679442445	0.012639238775657279	1	1	2	1/2	3.21143	2.6568	0.10235	0.102465	0.100194	0.0999702	29733	28800.7	31711.4	30409.4	38295.4	36241.7	44534.1	42530.9	2.21238	1.90525	0.038594	0	21.7357	999.9	59.3	29.7	24.5349	60.5976	20.8734	1	-0.198669	0.960596	20.1544	5.22747	11.992	4.96755	3.297	835.2	4615.6	3344.8	4.5	1.86754	1.86801	1.85932	1.86549	1.8634	1.86478	1.8602	1.86432	0.0	0.0	0.0	0.0	00000000	iiiiiiii	off	off	off	off	0.0	100.0	100.0	-0.921	-0.0678	-0.6618602021320379	-0.00042885721085168127	-9.298775811270514e-07	3.855936630904132e-10	-0.10835496311494855	-0.001228956394211394	0.00013004612730417491	2.07731679356656e-06	2.0	2029.0	1.0	23.0	2.1	10.0	1.07178	2.45605	1.44897	2.31934	1.55151	2.20337	34.2814	24.2364	18	630.074	442.142	20.7781	24.5185	30	24.5458	24.4876	21.464	30.224	0	20.7733	400	19.1982	100.756	101.561	
